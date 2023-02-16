@@ -11,7 +11,7 @@ export default function Home() {
       <Head>
         <title>Sample App</title>
       </Head>
-      <p className="text-lg">Sample text in lg</p>
+      <p className="text-lg font-plusjakarta">Sample text in lg</p>
     </>
   );
 }
