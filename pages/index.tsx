@@ -31,6 +31,13 @@ export default function Home() {
               Maximize skill, minimize budget
             </h1>
           </div>
+
+          <div className="pt-[26px]">
+            <p className="font-plusjakarta text-grey font-medium text-base leading-[26px]">
+              Our modern courses across a range of in-demand skills will give
+              you the knowledge you need to live the life you want.
+            </p>
+          </div>
         </div>
       </main>
     </>
