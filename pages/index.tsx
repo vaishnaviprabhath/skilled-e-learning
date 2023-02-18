@@ -41,7 +41,7 @@ export default function Home() {
 
           <div className="pt-6">
             <button className="flex-row  h-14 w-[167px] rounded-[31.5px] bg-gradient-to-b from-orange to-pink2  ">
-              <span className=" pt-[15px] pl-[38px] pr-[37px] font-plusjakarta font-bold text-base leading-[26px] text-white ">
+              <span className=" pt-[15px] pl-[38px] pr-[37px] font-plusjakarta font-bold text-base leading-[26px]  text-white ">
                 Get Started{" "}
               </span>
             </button>
@@ -53,6 +53,12 @@ export default function Home() {
               src="/assets/image-hero-mobile@2x.png"
               alt="Logo"
             ></Image>
+          </div>
+
+          <div className="  bg-gradient-to-b from-orange to-pink2 w-[343px] h-[120px] rounded-[10px]">
+            <p className=" font-plusjakarta font-extrabold text-2xl text-white pt-[24px] pl-[28px] pr-[29px] pb-[32px] ">
+              Check out our most popular courses!
+            </p>
           </div>
         </div>
       </main>
