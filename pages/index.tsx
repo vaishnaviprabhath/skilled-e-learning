@@ -46,7 +46,7 @@ export default function Home() {
               </span>
             </button>
           </div>
-          <div className="pt-[46px] ">
+          <div className="pt-[46px] pl-6 pr-6">
             <Image
               width={327}
               height={301}
@@ -55,10 +55,36 @@ export default function Home() {
             ></Image>
           </div>
 
-          <div className="  bg-gradient-to-b from-orange to-pink2 w-[343px] h-[120px] rounded-[10px]">
-            <p className=" font-plusjakarta font-extrabold text-2xl text-white pt-[24px] pl-[28px] pr-[29px] pb-[32px] ">
+          <div className="bg-gradient-to-b from-orange to-pink2 w-[343px] h-[120px] rounded-[10px]">
+            <p className="font-plusjakarta font-extrabold text-2xl text-white pt-[24px] pl-[28px] pr-[29px] pb-[32px] ">
               Check out our most popular courses!
             </p>
+          </div>
+          <div className="pt-4 pl-7">
+            <Image
+              width={56}
+              height={56}
+              src="/assets/icon-animation.svg"
+              alt="Logo"
+            ></Image>
+
+            <div className="pt-6 pl-7"></div>
+            <p className="font-plusjakarta  font-extrabold text-xl text-vdb leading-[25.2px]">
+              Animation
+            </p>
+
+            <div className="pt-4 pr-[29-px]">
+              <p className="font-plusjakarta font-medium text-base leading-[26px] text-grey">
+                Learn the latest animation techniques to create stunning motion
+                design and captivate your audience.
+              </p>
+            </div>
+
+            <div className="pt-6  pb-8">
+              <p className="font-plusjakarta font-bold text-lg text-pink">
+                Get Started
+              </p>
+            </div>
           </div>
         </div>
       </main>
