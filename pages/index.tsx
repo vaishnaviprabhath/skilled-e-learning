@@ -15,8 +15,8 @@ export default function Home() {
         <div className="pt-4 px-4">
           <div className="flex items-center justify-between  ">
             <Image
-              width={119}
-              height={28}
+              width={89}
+              height={35}
               src="/assets/logo-dark.svg"
               alt="Logo"
             ></Image>
@@ -43,8 +43,16 @@ export default function Home() {
             <button className="flex-row  h-14 w-[167px] rounded-[31.5px] bg-gradient-to-b from-orange to-pink2  ">
               <span className=" pt-[15px] pl-[38px] pr-[37px] font-plusjakarta font-bold text-base leading-[26px] text-white ">
                 Get Started{" "}
-              </span>{" "}
-            </button>{" "}
+              </span>
+            </button>
+          </div>
+          <div className="pt-[46px] ">
+            <Image
+              width={327}
+              height={301}
+              src="/assets/image-hero-mobile@2x.png"
+              alt="Logo"
+            ></Image>
           </div>
         </div>
       </main>
