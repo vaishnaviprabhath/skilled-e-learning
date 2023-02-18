@@ -20,9 +20,9 @@ export default function Home() {
               src="/assets/logo-dark.svg"
               alt="Logo"
             ></Image>
-            <button className="flex-row  h-12 w-[140px] rounded-full bg-vdb  ">
-              <span className="font-plusjakarta font-bold text-white ">
-                Get started{" "}
+            <button className="flex-row  h-12 w-[140px] rounded-[31.5px] bg-vdb  ">
+              <span className="font-plusjakarta font-bold text-base leading-[28px] text-white pt-[9px] pl-[24px] pb-[11px] pr-[24px] ">
+                Get Started{" "}
               </span>{" "}
             </button>{" "}
           </div>
@@ -37,6 +37,14 @@ export default function Home() {
               Our modern courses across a range of in-demand skills will give
               you the knowledge you need to live the life you want.
             </p>
+          </div>
+
+          <div className="pt-6">
+            <button className="flex-row  h-14 w-[167px] rounded-[31.5px] bg-gradient-to-b from-orange to-pink2  ">
+              <span className=" pt-[15px] pl-[38px] pr-[37px] font-plusjakarta font-bold text-base leading-[26px] text-white ">
+                Get Started{" "}
+              </span>{" "}
+            </button>{" "}
           </div>
         </div>
       </main>
