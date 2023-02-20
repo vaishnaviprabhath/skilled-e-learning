@@ -12,7 +12,7 @@ export default function Home() {
         <title>Frontend Mentor | Skilled e-learning landing page</title>
       </Head>
       <main>
-        <div className="pt-4 px-4 ">
+        <div className="pt-4 px-4 bg-white2">
           <div className="flex items-center justify-between ">
             <Image
               width={89}
@@ -153,7 +153,7 @@ export default function Home() {
 
           <div className=" pt-4 pl-7 ">
             <p className="font-plusjakarta  font-extrabold text-xl text-vdb leading-[25.2px]">
-              crypto
+              Crypto
             </p>
           </div>
 
@@ -179,7 +179,7 @@ export default function Home() {
 
           <div className=" pt-4 pl-7 ">
             <p className="font-plusjakarta  font-extrabold text-xl text-vdb leading-[25.2px]">
-              business
+              Business
             </p>
           </div>
 
