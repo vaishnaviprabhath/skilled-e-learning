@@ -130,6 +130,18 @@ export default function Home() {
               Photography
             </p>
           </div>
+
+          <div className="pt-4 pr-[29px] pl-7">
+            <p className="font-plusjakarta font-medium text-base leading-[26px] text-grey">
+              Explore critical fundamentals like lighting, composition, and
+              focus to capture exceptional photos.
+            </p>
+          </div>
+          <div className="pt-6  pl-7 pb-8 drop-shadow-2xl">
+            <a className="font-plusjakarta font-bold text-lg text-pink" href="">
+              Get Started
+            </a>
+          </div>
         </div>
       </main>
     </>
