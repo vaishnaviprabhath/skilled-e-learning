@@ -142,6 +142,58 @@ export default function Home() {
               Get Started
             </a>
           </div>
+          <div className="pt-4 pl-7">
+            <Image
+              width={56}
+              height={56}
+              src="/assets/icon-crypto.svg"
+              alt="Logo"
+            ></Image>
+          </div>
+
+          <div className=" pt-4 pl-7 ">
+            <p className="font-plusjakarta  font-extrabold text-xl text-vdb leading-[25.2px]">
+              crypto
+            </p>
+          </div>
+
+          <div className="pt-4 pr-[29px] pl-7">
+            <p className="font-plusjakarta font-medium text-base leading-[26px] text-grey">
+              All you need to know to get started investing in crypto. Go from
+              beginner to advanced with this 54 hour course.
+            </p>
+          </div>
+          <div className="pt-6  pl-7 pb-8 drop-shadow-2xl">
+            <a className="font-plusjakarta font-bold text-lg text-pink" href="">
+              Get Started
+            </a>
+          </div>
+          <div className="pt-4 pl-7">
+            <Image
+              width={56}
+              height={56}
+              src="/assets/icon-business.svg"
+              alt="Logo"
+            ></Image>
+          </div>
+
+          <div className=" pt-4 pl-7 ">
+            <p className="font-plusjakarta  font-extrabold text-xl text-vdb leading-[25.2px]">
+              business
+            </p>
+          </div>
+
+          <div className="pt-4 pr-[29px] pl-7">
+            <p className="font-plusjakarta font-medium text-base leading-[26px] text-grey">
+              A step-by-step playbook to help you start, scale, and sustain your
+              business without outside investment.
+            </p>
+          </div>
+          <div className="pt-6  pl-7 pb-8 drop-shadow-2xl">
+            <a className="font-plusjakarta font-bold text-lg text-pink" href="">
+              Get Started
+            </a>
+          </div>
         </div>
       </main>
     </>
