@@ -72,19 +72,28 @@ export default function Home() {
             <p className="font-plusjakarta  font-extrabold text-xl text-vdb leading-[25.2px]">
               Animation
             </p>
+          </div>
 
-            <div className="pt-4 pr-[29-px]">
-              <p className="font-plusjakarta font-medium text-base leading-[26px] text-grey">
-                Learn the latest animation techniques to create stunning motion
-                design and captivate your audience.
-              </p>
-            </div>
+          <div className="pt-4 pr-[29px] pl-7">
+            <p className="font-plusjakarta font-medium text-base leading-[26px] text-grey">
+              Learn the latest animation techniques to create stunning motion
+              design and captivate your audience.
+            </p>
+          </div>
 
-            <div className="pt-6  pb-8">
-              <p className="font-plusjakarta font-bold text-lg text-pink">
-                Get Started
-              </p>
-            </div>
+          <div className="pt-6  pl-7 pb-8">
+            <p className="font-plusjakarta font-bold text-lg text-pink">
+              Get Started
+            </p>
+          </div>
+
+          <div className="pt-4 pl-7">
+            <Image
+              width={56}
+              height={56}
+              src="/assets/icon-design.svg"
+              alt="Logo"
+            ></Image>
           </div>
         </div>
       </main>

@@ -22,6 +22,7 @@ module.exports = {
       pink2:"rgb(240, 2,166)",
       orange:"rgb(255,111,72)",
       blue:"rgb(71,82,255)",
+      grey2:"rgb(242,242,242)",
 
 
     },
