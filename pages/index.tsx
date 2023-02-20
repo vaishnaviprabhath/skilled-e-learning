@@ -12,8 +12,8 @@ export default function Home() {
         <title>Frontend Mentor | Skilled e-learning landing page</title>
       </Head>
       <main>
-        <div className="pt-4 px-4">
-          <div className="flex items-center justify-between  ">
+        <div className="pt-4 px-4 ">
+          <div className="flex items-center justify-between ">
             <Image
               width={89}
               height={35}
@@ -67,8 +67,9 @@ export default function Home() {
               src="/assets/icon-animation.svg"
               alt="Logo"
             ></Image>
+          </div>
 
-            <div className="pt-6 pl-7"></div>
+          <div className="pt-4 pl-7">
             <p className="font-plusjakarta  font-extrabold text-xl text-vdb leading-[25.2px]">
               Animation
             </p>
@@ -82,9 +83,9 @@ export default function Home() {
           </div>
 
           <div className="pt-6  pl-7 pb-8">
-            <p className="font-plusjakarta font-bold text-lg text-pink">
+            <a className="font-plusjakarta font-bold text-lg text-pink" href="">
               Get Started
-            </p>
+            </a>
           </div>
 
           <div className="pt-4 pl-7">
@@ -94,6 +95,40 @@ export default function Home() {
               src="/assets/icon-design.svg"
               alt="Logo"
             ></Image>
+          </div>
+
+          <div className=" pt-4 pl-7 ">
+            <p className="font-plusjakarta  font-extrabold text-xl text-vdb leading-[25.2px]">
+              Design
+            </p>
+          </div>
+
+          <div className="pt-4 pr-[29px] pl-7">
+            <p className="font-plusjakarta font-medium text-base leading-[26px] text-grey">
+              Create beautiful, usable interfaces to help shape the future of
+              how the web looks.
+            </p>
+          </div>
+
+          <div className="pt-6  pl-7 pb-8 drop-shadow-2xl">
+            <a className="font-plusjakarta font-bold text-lg text-pink" href="">
+              Get Started
+            </a>
+          </div>
+
+          <div className="pt-4 pl-7">
+            <Image
+              width={56}
+              height={56}
+              src="/assets/icon-photography.svg"
+              alt="Logo"
+            ></Image>
+          </div>
+
+          <div className=" pt-4 pl-7 ">
+            <p className="font-plusjakarta  font-extrabold text-xl text-vdb leading-[25.2px]">
+              Photography
+            </p>
           </div>
         </div>
       </main>
