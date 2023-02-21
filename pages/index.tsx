@@ -69,13 +69,13 @@ export default function Home() {
             ></Image>
           </div>
 
-          <div className="pt-4 pl-7">
+          <div className="pt-6 pl-7">
             <p className="font-plusjakarta  font-extrabold text-xl text-vdb leading-[25.2px]">
               Animation
             </p>
           </div>
 
-          <div className="pt-4 pr-[29px] pl-7">
+          <div className="pt-6 pr-[29px] pl-7">
             <p className="font-plusjakarta font-medium text-base leading-[26px] text-grey">
               Learn the latest animation techniques to create stunning motion
               design and captivate your audience.
@@ -116,32 +116,37 @@ export default function Home() {
             </a>
           </div>
 
-          <div className="pt-4 pl-7">
+          <div className="pt-4 pl-7 bg-white rounded-2xl">
             <Image
               width={56}
               height={56}
               src="/assets/icon-photography.svg"
               alt="Logo"
             ></Image>
-          </div>
 
-          <div className=" pt-4 pl-7 ">
+            <div className="pt-6  pl-7"></div>
+
             <p className="font-plusjakarta  font-extrabold text-xl text-vdb leading-[25.2px]">
               Photography
             </p>
-          </div>
 
-          <div className="pt-4 pr-[29px] pl-7">
+            <div className="pt-4 pr-[29px] pl-7"></div>
+
             <p className="font-plusjakarta font-medium text-base leading-[26px] text-grey">
               Explore critical fundamentals like lighting, composition, and
               focus to capture exceptional photos.
             </p>
+
+            <div className="pt-6 pb-8 ">
+              <a
+                className="font-plusjakarta font-bold text-lg text-pink"
+                href=""
+              >
+                Get Started
+              </a>
+            </div>
           </div>
-          <div className="pt-6  pl-7 pb-8 drop-shadow-2xl">
-            <a className="font-plusjakarta font-bold text-lg text-pink" href="">
-              Get Started
-            </a>
-          </div>
+
           <div className="pt-4 pl-7">
             <Image
               width={56}
