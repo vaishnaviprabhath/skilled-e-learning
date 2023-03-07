@@ -32,21 +32,21 @@ export default function Home() {
             </h1>
           </div>
 
-          <div className="pt-[26px]">
+          <div className="mt-[26px]">
             <p className="font-plusjakarta text-grey font-medium text-base leading-[26px]">
               Our modern courses across a range of in-demand skills will give
               you the knowledge you need to live the life you want.
             </p>
           </div>
 
-          <div className="pt-6">
+          <div className="mt-6">
             <button className="flex-row  h-14 w-[167px] rounded-[31.5px] bg-gradient-to-b from-orange to-pink2  ">
               <span className=" pt-[15px] pl-[38px] pr-[37px] font-plusjakarta font-bold text-base leading-[26px]  text-white ">
                 Get Started{" "}
               </span>
             </button>
           </div>
-          <div className="pt-[46px] pl-6 pr-6">
+          <div className="mt-[46px] pl-6 pr-6">
             <Image
               width={327}
               height={301}
@@ -56,11 +56,11 @@ export default function Home() {
           </div>
 
           <div className="bg-gradient-to-b from-orange to-pink2 w-[343px] h-[120px] rounded-[10px]">
-            <p className="font-plusjakarta font-extrabold text-2xl text-white pt-[24px] pl-[28px] pr-[29px] pb-[32px] ">
+            <p className="font-plusjakarta font-extrabold text-2xl text-white pt-6 pl-7 pr-[29px] pb-[32px] ">
               Check out our most popular courses!
             </p>
           </div>
-          <div className="pt-4 pl-7">
+          <div className="mt-4 pl-7 bg-white rounded-2xl">
             <Image
               width={56}
               height={56}
@@ -69,26 +69,26 @@ export default function Home() {
             ></Image>
           </div>
 
-          <div className="pt-6 pl-7">
+          <div className="mt-6 pl-7">
             <p className="font-plusjakarta  font-extrabold text-xl text-vdb leading-[25.2px]">
               Animation
             </p>
           </div>
 
-          <div className="pt-6 pr-[29px] pl-7">
+          <div className="mt-6 pr-[29px] pl-7">
             <p className="font-plusjakarta font-medium text-base leading-[26px] text-grey">
               Learn the latest animation techniques to create stunning motion
               design and captivate your audience.
             </p>
           </div>
 
-          <div className="pt-6  pl-7 pb-8">
+          <div className="mt-6  pl-7 pb-8">
             <a className="font-plusjakarta font-bold text-lg text-pink" href="">
               Get Started
             </a>
           </div>
 
-          <div className="pt-4 pl-7 relative z-10 bg-white rounded-2xl">
+          <div className="mt-4 pl-7 relative z-10 bg-white rounded-2xl">
             <Image
               width={56}
               height={56}
@@ -96,18 +96,18 @@ export default function Home() {
               alt="Logo"
             ></Image>
 
-            <div className=" pt-4 pl-7 "></div>
+            <div className=" mt-4 pl-7 "></div>
             <p className="font-plusjakarta  font-extrabold text-xl text-vdb leading-[25.2px]">
               Design
             </p>
 
-            <div className="pt-4 pr-[29px] pl-7"></div>
+            <div className="mt-4 pr-[29px] pl-7"></div>
             <p className="font-plusjakarta font-medium text-base leading-[26px] text-grey">
               Create beautiful, usable interfaces to help shape the future of
               how the web looks.
             </p>
 
-            <div className="pt-6 pb-8 ">
+            <div className="mt-6 pb-8 ">
               <a
                 className="font-plusjakarta font-bold text-lg text-pink"
                 href=""
@@ -117,7 +117,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="pt-4 pl-7 bg-white rounded-2xl">
+          <div className="mt-4 pl-7 bg-white rounded-2xl">
             <Image
               width={56}
               height={56}
@@ -125,20 +125,20 @@ export default function Home() {
               alt="Logo"
             ></Image>
 
-            <div className="pt-6  pl-7"></div>
+            <div className="mt-6  pl-7"></div>
 
             <p className="font-plusjakarta  font-extrabold text-xl text-vdb leading-[25.2px]">
               Photography
             </p>
 
-            <div className="pt-4 pr-[29px] pl-7"></div>
+            <div className="mt-4 pr-[29px] pl-7"></div>
 
             <p className="font-plusjakarta font-medium text-base leading-[26px] text-grey">
               Explore critical fundamentals like lighting, composition, and
               focus to capture exceptional photos.
             </p>
 
-            <div className="pt-6 pb-8 ">
+            <div className="mt-6 pb-8 ">
               <a
                 className="font-plusjakarta font-bold text-lg text-pink"
                 href=""
@@ -148,57 +148,61 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="pt-4 pl-7">
+          <div className="mt-4 pl-7 bg-white rounded-2xl">
             <Image
               width={56}
               height={56}
               src="/assets/icon-crypto.svg"
               alt="Logo"
             ></Image>
-          </div>
 
-          <div className=" pt-4 pl-7 ">
+            <div className=" mt-4 pl-7 "></div>
             <p className="font-plusjakarta  font-extrabold text-xl text-vdb leading-[25.2px]">
               Crypto
             </p>
-          </div>
 
-          <div className="pt-4 pr-[29px] pl-7">
+            <div className="mt-4 pr-[29px] pl-7"></div>
             <p className="font-plusjakarta font-medium text-base leading-[26px] text-grey">
               All you need to know to get started investing in crypto. Go from
               beginner to advanced with this 54 hour course.
             </p>
+
+            <div className="mt-6  pb-8">
+              <a
+                className="font-plusjakarta font-bold text-lg text-pink"
+                href=""
+              >
+                Get Started
+              </a>
+            </div>
           </div>
-          <div className="pt-6  pl-7 pb-8 drop-shadow-2xl">
-            <a className="font-plusjakarta font-bold text-lg text-pink" href="">
-              Get Started
-            </a>
-          </div>
-          <div className="pt-4 pl-7">
+          <div className="mt-4 pl-7 bg-white rounded-2xl">
             <Image
               width={56}
               height={56}
               src="/assets/icon-business.svg"
               alt="Logo"
             ></Image>
-          </div>
 
-          <div className=" pt-4 pl-7 ">
+            <div className=" mt-4 pl-7"></div>
             <p className="font-plusjakarta  font-extrabold text-xl text-vdb leading-[25.2px]">
               Business
             </p>
-          </div>
 
-          <div className="pt-4 pr-[29px] pl-7">
+            <div className="mt-4 pr-[29px] pl-7"></div>
             <p className="font-plusjakarta font-medium text-base leading-[26px] text-grey">
               A step-by-step playbook to help you start, scale, and sustain your
               business without outside investment.
             </p>
-          </div>
-          <div className="pt-6  pl-7 pb-8 drop-shadow-2xl">
-            <a className="font-plusjakarta font-bold text-lg text-pink" href="">
-              Get Started
-            </a>
+
+            <div className="mt-6  pb-8 ">
+              <a
+                className="font-plusjakarta font-bold text-lg text-pink"
+                href=""
+              >
+                Get Started
+              </a>
+            </div>
           </div>
         </div>
       </main>
