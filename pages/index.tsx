@@ -88,32 +88,33 @@ export default function Home() {
             </a>
           </div>
 
-          <div className="pt-4 pl-7">
+          <div className="pt-4 pl-7 relative z-10 bg-white rounded-2xl">
             <Image
               width={56}
               height={56}
               src="/assets/icon-design.svg"
               alt="Logo"
             ></Image>
-          </div>
 
-          <div className=" pt-4 pl-7 ">
+            <div className=" pt-4 pl-7 "></div>
             <p className="font-plusjakarta  font-extrabold text-xl text-vdb leading-[25.2px]">
               Design
             </p>
-          </div>
 
-          <div className="pt-4 pr-[29px] pl-7">
+            <div className="pt-4 pr-[29px] pl-7"></div>
             <p className="font-plusjakarta font-medium text-base leading-[26px] text-grey">
               Create beautiful, usable interfaces to help shape the future of
               how the web looks.
             </p>
-          </div>
 
-          <div className="pt-6  pl-7 pb-8 drop-shadow-2xl">
-            <a className="font-plusjakarta font-bold text-lg text-pink" href="">
-              Get Started
-            </a>
+            <div className="pt-6 pb-8 ">
+              <a
+                className="font-plusjakarta font-bold text-lg text-pink"
+                href=""
+              >
+                Get Started
+              </a>
+            </div>
           </div>
 
           <div className="pt-4 pl-7 bg-white rounded-2xl">
