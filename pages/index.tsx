@@ -12,7 +12,7 @@ export default function Home() {
         <title>Frontend Mentor | Skilled e-learning landing page</title>
       </Head>
       <main>
-        <div className="pt-4 px-4 bg-white2">
+        <div className="mt-4 px-4 bg-gradient-to-b from-[#FFFFFF] to-[#F0F1FF]">
           <div className="flex items-center justify-between ">
             <Image
               width={89}
@@ -26,7 +26,7 @@ export default function Home() {
               </span>{" "}
             </button>{" "}
           </div>
-          <div className="pt-[38px] ">
+          <div className="mt-[38px] ">
             <h1 className="font-plusjakarta font-extrabold text-vdb text-[40px] leading-[50px] ">
               Maximize skill, minimize budget
             </h1>
