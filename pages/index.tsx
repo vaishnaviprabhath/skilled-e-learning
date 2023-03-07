@@ -67,25 +67,26 @@ export default function Home() {
               src="/assets/icon-animation.svg"
               alt="Logo"
             ></Image>
-          </div>
 
-          <div className="mt-6 pl-7">
+            <div className="mt-6 pl-7"></div>
             <p className="font-plusjakarta  font-extrabold text-xl text-vdb leading-[25.2px]">
               Animation
             </p>
-          </div>
 
-          <div className="mt-6 pr-[29px] pl-7">
+            <div className="mt-6 pr-[29px] pl-7"> </div>
             <p className="font-plusjakarta font-medium text-base leading-[26px] text-grey">
               Learn the latest animation techniques to create stunning motion
               design and captivate your audience.
             </p>
-          </div>
 
-          <div className="mt-6  pl-7 pb-8">
-            <a className="font-plusjakarta font-bold text-lg text-pink" href="">
-              Get Started
-            </a>
+            <div className="mt-6 pb-8">
+              <a
+                className="font-plusjakarta font-bold text-lg text-pink"
+                href=""
+              >
+                Get Started
+              </a>
+            </div>
           </div>
 
           <div className="mt-4 pl-7 relative z-10 bg-white rounded-2xl">
@@ -176,7 +177,7 @@ export default function Home() {
               </a>
             </div>
           </div>
-          <div className="mt-4 pl-7 bg-white rounded-2xl">
+          <div className="mt-4 pl-7  bg-white rounded-2xl">
             <Image
               width={56}
               height={56}
@@ -195,7 +196,7 @@ export default function Home() {
               business without outside investment.
             </p>
 
-            <div className="mt-6  pb-8 ">
+            <div className="mt-6 pb-8 ">
               <a
                 className="font-plusjakarta font-bold text-lg text-pink"
                 href=""
@@ -203,6 +204,25 @@ export default function Home() {
                 Get Started
               </a>
             </div>
+          </div>
+          <div className="mt-20 pt-9"></div>
+        </div>
+        <div className=" bg-vdb ">
+          <div className="h-[120px] flex items-center justify-between ">
+            <div className="pl-4">
+              <Image
+                width={89}
+                height={35}
+                src="/assets/logo-light.svg"
+                alt="Logo"
+              ></Image>
+            </div>
+
+            <button className="flex-row mr-4 h-14 w-[167px] rounded-[31.5px] bg-gradient-to-b from-orange to-pink2  ">
+              <span className=" pt-[15px] pl-[38px] pr-[37px] font-plusjakarta font-bold text-base leading-[26px]  text-white ">
+                Get Started{" "}
+              </span>
+            </button>
           </div>
         </div>
       </main>
