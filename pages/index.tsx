@@ -20,7 +20,7 @@ export default function Home() {
               src="/assets/logo-dark.svg"
               alt="Logo"
             ></Image>
-            <button className="flex-row  h-12 w-[140px] rounded-[31.5px] bg-vdb  ">
+            <button className="flex-row  h-12 w-[140px] rounded-[31.5px] bg-vdb hover:bg-lightblue ">
               <span className="font-plusjakarta font-bold text-base leading-[28px] text-white pt-[9px] pl-[24px] pb-[11px] pr-[24px] ">
                 Get Started{" "}
               </span>{" "}
@@ -40,7 +40,7 @@ export default function Home() {
           </div>
 
           <div className="mt-6">
-            <button className="flex-row  h-14 w-[167px] rounded-[31.5px] bg-gradient-to-b from-orange to-pink2  ">
+            <button className="flex-row  h-14 w-[167px] rounded-[31.5px] bg-gradient-to-b from-orange to-pink2 hover:opacity-50 ">
               <span className=" pt-[15px] pl-[38px] pr-[37px] font-plusjakarta font-bold text-base leading-[26px]  text-white ">
                 Get Started{" "}
               </span>
@@ -218,7 +218,7 @@ export default function Home() {
               ></Image>
             </div>
 
-            <button className="flex-row mr-4 h-14 w-[167px] rounded-[31.5px] bg-gradient-to-b from-orange to-pink2  ">
+            <button className="flex-row mr-4 h-14 w-[167px] rounded-[31.5px] bg-gradient-to-b from-blue2 to-pink2 hover:opacity-30">
               <span className=" pt-[15px] pl-[38px] pr-[37px] font-plusjakarta font-bold text-base leading-[26px]  text-white ">
                 Get Started{" "}
               </span>
