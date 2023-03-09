@@ -69,7 +69,7 @@ export default function Home() {
               alt="Logo"
             ></Image>
 
-            <div className="mt-6 pl-7"></div>
+            <div className=" pl-7"></div>
             <p className="font-plusjakarta  font-extrabold text-xl text-vdb leading-[25.2px]">
               Animation
             </p>
@@ -82,7 +82,7 @@ export default function Home() {
 
             <div className="mt-6 pb-8">
               <a
-                className="font-plusjakarta font-bold text-lg text-pink"
+                className="font-plusjakarta font-bold text-lg text-lightishpink"
                 href=""
               >
                 Get Started
@@ -99,7 +99,7 @@ export default function Home() {
               alt="Logo"
             ></Image>
 
-            <div className=" mt-4 pl-7 "></div>
+            <div className="  pl-7 "></div>
             <p className="font-plusjakarta  font-extrabold text-xl text-vdb leading-[25.2px]">
               Design
             </p>
@@ -112,7 +112,7 @@ export default function Home() {
 
             <div className="mt-6 pb-8 ">
               <a
-                className="font-plusjakarta font-bold text-lg text-pink"
+                className="font-plusjakarta font-bold text-lg text-lightishpink"
                 href=""
               >
                 Get Started
@@ -129,8 +129,7 @@ export default function Home() {
               alt="Logo"
             ></Image>
 
-            <div className="mt-6  pl-7"></div>
-
+            <div className=" pl-7"></div>
             <p className="font-plusjakarta  font-extrabold text-xl text-vdb leading-[25.2px]">
               Photography
             </p>
@@ -144,7 +143,7 @@ export default function Home() {
 
             <div className="mt-6 pb-8 ">
               <a
-                className="font-plusjakarta font-bold text-lg text-pink"
+                className="font-plusjakarta font-bold text-lg text-lightishpink"
                 href=""
               >
                 Get Started
@@ -161,7 +160,7 @@ export default function Home() {
               alt="Logo"
             ></Image>
 
-            <div className=" mt-4 pl-7 "></div>
+            <div className="  pl-7 "></div>
             <p className="font-plusjakarta  font-extrabold text-xl text-vdb leading-[25.2px]">
               Crypto
             </p>
@@ -174,7 +173,7 @@ export default function Home() {
 
             <div className="mt-6  pb-8">
               <a
-                className="font-plusjakarta font-bold text-lg text-pink"
+                className="font-plusjakarta font-bold text-lg text-lightishpink"
                 href=""
               >
                 Get Started
@@ -190,7 +189,7 @@ export default function Home() {
               alt="Logo"
             ></Image>
 
-            <div className=" mt-4 pl-7"></div>
+            <div className="  pl-7"></div>
             <p className="font-plusjakarta  font-extrabold text-xl text-vdb leading-[25.2px]">
               Business
             </p>
@@ -203,7 +202,7 @@ export default function Home() {
 
             <div className="mt-6 pb-8 ">
               <a
-                className="font-plusjakarta font-bold text-lg text-pink"
+                className="font-plusjakarta font-bold text-lg text-lightishpink"
                 href=""
               >
                 Get Started
