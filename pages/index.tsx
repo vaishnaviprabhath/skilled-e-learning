@@ -118,8 +118,9 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="mt-4 pl-7 bg-white rounded-2xl">
+          <div className="mt-4 pl-7  bg-white rounded-2xl">
             <Image
+              className=""
               width={56}
               height={56}
               src="/assets/icon-photography.svg"
