@@ -60,8 +60,9 @@ export default function Home() {
               Check out our most popular courses!
             </p>
           </div>
-          <div className="mt-4 pl-7 bg-white rounded-2xl">
+          <div className="mt-10 pl-7 bg-white rounded-2xl">
             <Image
+              className="-translate-y-6"
               width={56}
               height={56}
               src="/assets/icon-animation.svg"
@@ -89,8 +90,9 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="mt-4 pl-7 relative z-10 bg-white rounded-2xl">
+          <div className="mt-10 pl-7 relative z-10 bg-white rounded-2xl">
             <Image
+              className="-translate-y-6"
               width={56}
               height={56}
               src="/assets/icon-design.svg"
@@ -118,9 +120,9 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="mt-4 pl-7  bg-white rounded-2xl">
+          <div className="mt-10 pl-7  bg-white rounded-2xl">
             <Image
-              className=""
+              className="-translate-y-6"
               width={56}
               height={56}
               src="/assets/icon-photography.svg"
@@ -150,8 +152,9 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="mt-4 pl-7 bg-white rounded-2xl">
+          <div className="mt-10 pl-7 bg-white rounded-2xl">
             <Image
+              className="-translate-y-6"
               width={56}
               height={56}
               src="/assets/icon-crypto.svg"
@@ -178,8 +181,9 @@ export default function Home() {
               </a>
             </div>
           </div>
-          <div className="mt-4 pl-7  bg-white rounded-2xl">
+          <div className="mt-10 pl-7  bg-white rounded-2xl">
             <Image
+              className="-translate-y-6"
               width={56}
               height={56}
               src="/assets/icon-business.svg"
@@ -210,7 +214,7 @@ export default function Home() {
         </div>
         <div className=" bg-vdb ">
           <div className="h-[120px] flex items-center justify-between ">
-            <div className="pl-4">
+            <div className="pl-4 ">
               <Image
                 width={89}
                 height={35}
