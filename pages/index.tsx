@@ -33,9 +33,9 @@ export default function Home() {
           </div>
 
           <div className="mt-[26px]">
-            <p className="font-plusjakarta text-grey font-medium text-base leading-[26px]">
-              Our modern courses across a range of in-demand skills will give
-              you the knowledge you need to live the life you want.
+            <p className="font-plusjakarta text-grey font-medium text-base leading-[26px] ">
+              Our modern courses across a range of <br></br> in-demand skills
+              will give you the knowledge you need to live the life you want.
             </p>
           </div>
 
@@ -69,12 +69,11 @@ export default function Home() {
               alt="Logo"
             ></Image>
 
-            <div className=" pl-7"></div>
             <p className="font-plusjakarta  font-extrabold text-xl text-vdb leading-[25.2px]">
               Animation
             </p>
 
-            <div className="mt-6 pr-[29px] pl-7"> </div>
+            <div className="mt-6 "> </div>
             <p className="font-plusjakarta font-medium text-base leading-[26px] text-grey">
               Learn the latest animation techniques to create stunning motion
               design and captivate your audience.
@@ -99,13 +98,12 @@ export default function Home() {
               alt="Logo"
             ></Image>
 
-            <div className="  pl-7 "></div>
             <p className="font-plusjakarta  font-extrabold text-xl text-vdb leading-[25.2px]">
               Design
             </p>
 
-            <div className="mt-4 pr-[29px] pl-7"></div>
-            <p className="font-plusjakarta font-medium text-base leading-[26px] text-grey">
+            <div className="mt-4 "></div>
+            <p className="font-plusjakarta font-medium text-base leading-[26px] text-grey ">
               Create beautiful, usable interfaces to help shape the future of
               how the web looks.
             </p>
@@ -129,12 +127,11 @@ export default function Home() {
               alt="Logo"
             ></Image>
 
-            <div className=" pl-7"></div>
             <p className="font-plusjakarta  font-extrabold text-xl text-vdb leading-[25.2px]">
               Photography
             </p>
 
-            <div className="mt-4 pr-[29px] pl-7"></div>
+            <div className="mt-4 "></div>
 
             <p className="font-plusjakarta font-medium text-base leading-[26px] text-grey">
               Explore critical fundamentals like lighting, composition, and
@@ -160,12 +157,11 @@ export default function Home() {
               alt="Logo"
             ></Image>
 
-            <div className="  pl-7 "></div>
             <p className="font-plusjakarta  font-extrabold text-xl text-vdb leading-[25.2px]">
               Crypto
             </p>
 
-            <div className="mt-4 pr-[29px] pl-7"></div>
+            <div className="mt-4 "></div>
             <p className="font-plusjakarta font-medium text-base leading-[26px] text-grey">
               All you need to know to get started investing in crypto. Go from
               beginner to advanced with this 54 hour course.
@@ -189,12 +185,11 @@ export default function Home() {
               alt="Logo"
             ></Image>
 
-            <div className="  pl-7"></div>
             <p className="font-plusjakarta  font-extrabold text-xl text-vdb leading-[25.2px]">
               Business
             </p>
 
-            <div className="mt-4 pr-[29px] pl-7"></div>
+            <div className="mt-4 "></div>
             <p className="font-plusjakarta font-medium text-base leading-[26px] text-grey">
               A step-by-step playbook to help you start, scale, and sustain your
               business without outside investment.
